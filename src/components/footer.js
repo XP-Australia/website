@@ -22,8 +22,9 @@ const Footer = () => {
   return (
     <Section>
       <FooterText>
-        This page is open source, Check it out on&nbsp;
-        <a href="#">Github</a>
+        Get in touch: <a href="mailto:contact@auxp.com.au">contact@auxp.com.au</a><br />
+        This page is open sourced. Check it out on&nbsp;
+        <a target="_blank" href="https://github.com/XP-Australia/website">Github</a>
         <br />© 2020 XP Australia
       </FooterText>
     </Section>
