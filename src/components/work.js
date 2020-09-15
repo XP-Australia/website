@@ -7,7 +7,7 @@ import Project from 'components/project'
 
 import BikableLogo from 'img/bikable.png'
 
-const BikableLink = <Link to="https://bikable.com.au" target="_blank">Check out</Link>
+const BikableLink = <a href="https://bikable.com.au" target="_blank">Check out</a>
 
 const Work = () => {
   return (
@@ -19,7 +19,7 @@ const Work = () => {
           <Project
             img={BikableLogo}
             title="Bikable"
-            abstract="The next platform to connect bike riders and bike shops"
+            abstract="Your best e-bike choice in just a few seconds"
             link={BikableLink}
           />
         </Fragment>
